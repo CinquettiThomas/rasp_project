@@ -1,8 +1,11 @@
 #include <stdlib.h>
-using namespace std;
+#include <stdio.h>
+#include <wiringPi.h>
 
 int main()
 {
-   print("Hello world!");
+   printf("Hello world!\n");
    return 0;
 }
+
+//~
